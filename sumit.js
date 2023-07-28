@@ -192,29 +192,45 @@
 // console.log(ronaldo.getPlayerDetails());
 
 
-class BetterArray {
-    #items
-    constructor() {
-        this.#items = [];
-    }
+// class BetterArray {
+//     #items
+//     constructor() {
+//         this.#items = [];
+//     }
+// }
+
+// getItems() {
+//     return [...this.#items];
+// }
+
+// addItems(item) {
+//     this.#items.push(item);
+// }
+
+// removeItem(itemToDelete) {
+//     this.#items = this.#items.filter((item) => item !== itemToDelete);
+
+// }
+
+// modifyItem(itemToChange, newValue) {
+//     const index = this.#items.indexOf(itemToChange);
+//     if (index !== -1) {
+//         this.#items[index] = newValue;
+//     }
+// }
+
+function on_function() {
+    document.getElementById('image').src='pic_bulboff.gif';
+    document.getElementById('headline').style.fontSize = "55px";
 }
 
-getItems() {
-    return [...this.#items];
+function off_function() {
+    document.getElementById('image').src="pic_bulbon.gif";
+    document.getElementById('headline').style.fontSize = "30px";
 }
 
-addItems(item) {
-    this.#items.push(item);
-}
+var $name = "Reyad Hossain Khan";
+    console.log($name);
 
-removeItem(itemToDelete) {
-    this.#items = this.#items.filter((item) => item !== itemToDelete);
-
-}
-
-modifyItem(itemToChange, newValue) {
-    const index = this.#items.indexOf(itemToChange);
-    if (index !== -1) {
-        this.#items[index] = newValue;
-    }
-}
+    const value1 = Symbol('hello');
+const value2 = Symbol('hello');
