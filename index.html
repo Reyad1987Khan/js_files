@@ -3,15 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>Form Validation Lerning</title>
+    <link rel="stylesheet" href="formValidation.css">
 </head>
 <body>
-    <h3>Ternary Operator Lerning</h3>
-    <input type="text" value="18" id="inputAge">
-    <button onclick="myFunction()">Press me</button>
-    <p id="demo"></p>
-    
+    <h3>Registration Form</h3>
+    <h2 id="notification"></h2>
+<form method="POST" action="" name="reg-form">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>
+               <input type="text" name="name"> 
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+               <input type="text" name="email"> 
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+               <input type="password" name="password"> 
+            </td>
+        </tr>
+        <tr>
+            <td>Confirm Password</td>
+            <td>
+               <input type="password" name="conf-password"> 
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Registration" name="submit">
+            </td>
+        </tr>
+    </table>
+</form>
+    <script src="formValidation.js"></script>
 </body>
-<script src="JavaScript.js"></script>
 </html>
